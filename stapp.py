@@ -19,7 +19,8 @@ def load_lotie_animation(file_path):
 
 
 def run_snow_animation():
-    rain(emoji="✨", font_size=50, falling_speed=5, animation_length="infinite")
+    rain(emoji="👶", font_size=50, falling_speed=5, animation_length="infinite")
+    rain(emoji="👨🏽‍🍼", font_size=70, falling_speed=5, animation_length="infinite")
 
 
 # Function to get the name for query 
