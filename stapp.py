@@ -19,10 +19,10 @@ def load_lotie_animation(file_path):
 
 
 def run_snow_animation():
-    rain(emoji="👶     👨🏽‍🍼", font_size=50, falling_speed=5, animation_length="infinite")
+    rain(emoji="🍻~         🥳", font_size=50, falling_speed=5, animation_length="infinite")
     
 
-
+ 
 # Function to get the name for query 
     
 def get_person_name():
@@ -46,5 +46,5 @@ st_lottie(lottie_animation, key="lottie-holiday", height= 300)
 
 st.markdown(
     f"Hey {PERSON_NAME}, wish you a very happy new year✨🎇"
-
 )
+st.markdown("# Heading towards 2024 !!!")
